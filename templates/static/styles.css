@@ -1,0 +1,78 @@
+.section_for_dash{
+  margin-top: 6rem;
+  width: 100%;
+  height: auto;
+}
+
+.btn_for_table{
+  margin: 2rem 1rem;
+}
+
+.btn_add{
+  width: 8%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #248ce4;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.for_safe{
+  width: 90%;
+  margin: auto;
+}
+
+.all_table{
+  font-size: 20px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.table_header{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  font-weight: 600;
+  padding: 0.8rem 0;
+  margin: auto;
+  border-bottom: 2px solid #000;
+  background-color: #898b8d;
+}
+
+.table_row{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 0.8rem 0;
+  margin: auto;
+}
+
+.table_header > span{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+.table_row > span{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+
+.table_header-p{
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fill, 10%);
+  gap: 1.8rem;
+}
+
+.t_clp{
+  width: 250px;
+}
+
+.btns{
+  color: rgb(233, 77, 77);
+}
